@@ -7,7 +7,7 @@ variable "vpc_should_be_created" {
 variable "vpc_name" {
   description = "The Name of the VPC"
   type        = string
-  default     = "DUET.VPC"
+  default     = "SAFEWOLF.VPC"
 }
 
 variable "vpc_cidr_block" {

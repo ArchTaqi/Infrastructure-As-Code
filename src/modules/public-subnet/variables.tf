@@ -7,7 +7,7 @@ variable "subnet_should_be_created" {
 variable "subnet_name" {
   description = "The Name of the Public Subnet"
   type        = string
-  default     = "DUET.Public.Subnet"
+  default     = "SAFEWOLF.Public.Subnet"
 }
 
 variable "subnet_cidr_block" {
