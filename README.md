@@ -6,7 +6,6 @@
 ## About Terraform
 
 - An immutable IAC.
-- 
 
 ### Configure AWS CLI 
 
