@@ -7,19 +7,19 @@ variable "ec2_should_be_created" {
 variable "ec2_name" {
   description = "The Name of the EC2"
   type        = string
-  default     = "INJ.EC2"
+  default     = "SAFEWOLF.EC2"
 }
 
 variable "ec2_security_group_name" {
   description = "The Name of the EC2 Security Group"
   type        = string
-  default     = "INJ.SG"
+  default     = "SAFEWOLF.SG"
 }
 
 variable "ec2_security_group_description" {
   description = "The Description of the EC2 Security Group"
   type        = string
-  default     = "INJ.Free Tier EC2 Security Group"
+  default     = "SAFEWOLF.SG.Descp"
 }
 
 variable "ec2_ami" {
