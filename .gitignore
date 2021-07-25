@@ -1,7 +1,8 @@
 .idea/
-*.tfstate
-*.tfstate.backup
-.terraform
+*.DS_Store
 *.iml
-*.terraform.lock.hcl
 *.tfvars
+*.tfstate
+.terraform
+*.terraform.*
+*.tfstate.backup
