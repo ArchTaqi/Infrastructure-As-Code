@@ -26,3 +26,12 @@ module "route_table" {
   internet_gateway_id = module.internet_gateway.internet_gateway_id
   public_subnet_id    = module.public_subnet.public_subnet_id
 }
+
+module "ec2" {
+  source = "../modules/ec2"
+  
+  ec2_ami                 = var.ec2_ami
+  ec2_instance_type       = var.ec2_instance_type
+  vpc_id                  = module.vpc.vpc_id
+  public_subnet_id        = module.public_subnet.public_subnet_id
+}
