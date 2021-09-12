@@ -26,3 +26,4 @@ terraform workspace select dev
 terraform plan
 ```
 
+Laravelapi.juandmegon.com
